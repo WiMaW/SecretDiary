@@ -1,0 +1,195 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.hyperskill.secretdiary"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.REORDER_TASKS" />
+11-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:5-72
+11-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:22-69
+12
+13    <permission
+13-->[androidx.core:core:1.15.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/3bf8a01fb93bffed59bfa1e30ba40116/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+14        android:name="org.hyperskill.secretdiary.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.15.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/3bf8a01fb93bffed59bfa1e30ba40116/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.15.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/3bf8a01fb93bffed59bfa1e30ba40116/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="org.hyperskill.secretdiary.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.15.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/3bf8a01fb93bffed59bfa1e30ba40116/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.15.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/3bf8a01fb93bffed59bfa1e30ba40116/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:4:5-32:19
+20        android:allowBackup="true"
+20-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:5:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.15.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/3bf8a01fb93bffed59bfa1e30ba40116/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:6:9-43
+25        android:label="Secret Diary"
+25-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:7:9-37
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:8:9-54
+27        android:supportsRtl="true"
+27-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:9:9-35
+28        android:theme="@style/AppTheme" >
+28-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:10:9-40
+29        <activity
+29-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:11:9-21:20
+30            android:name="org.hyperskill.secretdiary.LoginActivity"
+30-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:12:13-68
+31            android:exported="true"
+31-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:13:13-36
+32            android:launchMode="singleInstancePerTask" >
+32-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:14:13-55
+33            <intent-filter>
+33-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:16:13-20:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:17:17-69
+34-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:17:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:19:17-77
+36-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:19:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:22:9-30:20
+40            android:name="org.hyperskill.secretdiary.MainActivity"
+40-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:22:19-47
+41            android:exported="true"
+41-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:23:13-36
+42            android:launchMode="standard" >
+42-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:24:13-42
+43            <intent-filter>
+43-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:25:13-29:29
+44                <action android:name="android.intent.action.ALL_APPS" />
+44-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:26:17-73
+44-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:26:25-70
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:28:17-76
+46-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:28:27-73
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
+50            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+50-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
+51            android:exported="true"
+51-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
+52            android:theme="@android:style/Theme" >
+52-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
+53            <intent-filter>
+53-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:17:17-69
+54-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:17:25-66
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
+58            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+58-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
+59            android:exported="true"
+59-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
+60            android:theme="@android:style/Theme" >
+60-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
+61            <intent-filter>
+61-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:17:17-69
+62-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:17:25-66
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
+66            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+66-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
+67            android:exported="true"
+67-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
+68            android:theme="@android:style/Theme.Dialog" >
+68-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
+69            <intent-filter>
+69-->[androidx.test:core:1.4.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/10f779bc82615e091051785dc09e2371/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:17:17-69
+70-->/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/src/main/AndroidManifest.xml:17:25-66
+71            </intent-filter>
+72        </activity>
+73
+74        <provider
+74-->[androidx.emoji2:emoji2:1.3.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.3.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+76            android:authorities="org.hyperskill.secretdiary.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.3.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.3.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.3.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.3.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.3.0] /Users/wioletawrobel/.gradle/caches/8.9/transforms/cddc0f131567dc9389d3af201578b222/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/wioletawrobel/.gradle/caches/8.9/transforms/47a4f6e651fbe13b163dd7d59123ce2f/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/wioletawrobel/.gradle/caches/8.9/transforms/47a4f6e651fbe13b163dd7d59123ce2f/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/wioletawrobel/.gradle/caches/8.9/transforms/47a4f6e651fbe13b163dd7d59123ce2f/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+86                android:value="androidx.startup" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+87        </provider>
+88
+89        <receiver
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+90            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+91            android:directBootAware="false"
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+92            android:enabled="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+93            android:exported="true"
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+94            android:permission="android.permission.DUMP" >
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+96                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+99                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+102                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+105                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/wioletawrobel/.gradle/caches/8.9/transforms/8d0ac46035fb4254919664612d6cb258/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+106            </intent-filter>
+107        </receiver>
+108    </application>
+109
+110</manifest>

@@ -1,0 +1,4 @@
+#Sat Dec 14 19:06:45 CET 2024
+base.0=/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

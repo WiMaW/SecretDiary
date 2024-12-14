@@ -1,0 +1,23 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>Everyone makes mistakes. This situation could also happen with users. Imagine that they mistype a word in the input text and save it. After that, they realize the typo in the diary and do not want to leave it as it is. Users should be able to remove the last note from diary, and this is what you need to implement in this stage using an "Undo" button.</p>
+<p>But what if users accidentally taps undo button after writing a really long text? To avoid such misclicks, an <code class="java">AlertDialog</code> should appear asking users if they are sure about deleting the last note.</p>
+<h5 id="objectives">Objectives</h5>
+<ol>
+<li>Create a new <code class="java">Button</code> with <code class="java">id</code> attribute <code class="java">btnUndo</code> and <code class="java">text</code> set to <code class="java">"Undo"</code>;</li>
+<li>On <code class="java">btnUndo</code> click, an <code class="java">AlertDialog</code> should be displayed with the following properties:
+	<ul>
+<li><code class="java">Title</code>: <code class="java">"Remove last note"</code></li>
+<li><code class="java">Message</code>: <code class="java"> "Do you really want to remove the last writing? This operation cannot be undone!"</code></li>
+<li><code class="java">Positive Button</code>: <code class="java">"Yes"</code></li>
+<li><code class="java">Negative Button</code>: <code class="java">"No"</code></li>
+<li>When importing <code class="java">AlertDialog</code> make sure to import <code class="java">android.app.AlertDialog</code></li>
+</ul>
+</li>
+<li>If users selects <code class="java">Yes</code>, then remove the last writing from diary, otherwise, nothing should happen;</li>
+<li>Handle exceptional usage: If users selects <code class="java">Yes</code> on <code class="java">AlertDialog</code>, but the diary is empty, then nothing should happen;</li>
+</ol>
+<p>Obs: Do not use mutation in global variables because tests do not support that.</p>
+<h5 id="example">Example</h5>
+<p><picture><img alt="Adding and removing notes in the Secret Diary app" height="600" name="Stage3Example.gif" src="https://ucarecdn.com/6f70585b-df68-4135-bbe2-3ddb167cc715/" width="340"/></picture></p>
+</div>

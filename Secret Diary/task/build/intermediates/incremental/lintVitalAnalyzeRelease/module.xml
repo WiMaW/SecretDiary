@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/wioletawrobel/AndroidStudioProjects/Secret Diary/Secret Diary/task"
+    name=":Secret_Diary-task"
+    type="APP"
+    maven="Secret Diary:Secret_Diary-task:unspecified"
+    agpVersion="8.7.2"
+    buildFolder="build"
+    bootClassPath="/Users/wioletawrobel/Library/Android/sdk/platforms/android-35/android.jar:/Users/wioletawrobel/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-35"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
